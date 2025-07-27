@@ -150,3 +150,31 @@ nav ul {
     font-size: 16px;
     color: #757575;
 }
+/*resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.experience-description, .experience-sub-title{
+    color: #757575; 
+}
+.ecperience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+
+}
+.resume hr{
+    margin: 30px 5px;
+}
