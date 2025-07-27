@@ -8,7 +8,7 @@
 
 
 /* header */
-.header{
+.header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -27,7 +27,21 @@ nav {
     font-weight: 800;
     font-size: 45px;
 }
-
+/* main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
 /* Shared Style */
 .text-primary {
     color: #FD6E0A;
@@ -52,7 +66,19 @@ nav ul {
     align-items: center;
 
 }
-
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+} 
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #fff8f3;
+    
+}
 .btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
@@ -75,7 +101,8 @@ nav ul {
     font-size: 45px;
     font-weight: 600;
 }
-.banner-description{
+
+.banner-description {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
